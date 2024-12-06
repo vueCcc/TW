@@ -34,7 +34,7 @@ var rule = {
         "User-Agent": "okhttp/4.10.0"
     },
     timeout: 5000,
-    class_name: '天微剧场&热播短剧&会员专享&星选好剧&新上短剧&阳光剧场',
+    class_name: '剧场&热播剧&会员专享&星选好剧&新剧&阳光剧场',
     class_url: '1&2&8&7&3&5',
     预处理:$js.toString(()=>{
         let html = post('https://u.shytkjgs.com/user/v1/account/login', {
@@ -99,7 +99,7 @@ var rule = {
     VOD = {
             vod_name: data.title,
             vod_pic: data.cover_url,
-            vod_play_from: '天微科技专线',
+            vod_play_from: '影视车App',
             vod_play_url: urls.join('#')
         };
     }),

@@ -12,7 +12,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "\"./json/douban.json\""
+            "ext": "./json/douban.json"
         },
         {
             "key": "Doubana",
@@ -22,7 +22,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "\"./json/douban.json\""
+            "ext": "./json/douban.json"
         },
         {
             "key": "Wexconfig",
@@ -71,18 +71,18 @@
             }
         },
         {
-            "key": "玩偶",
-            "name": "💓‍玩偶┃4K💓‍",
+            "key": "雷鲸",
+            "name": "💓‍雷鲸┃4K💓‍",
             "type": 3,
-            "api": "csp_Wogg",
+            "api": "csp_Wexleijing",
             "searchable": 1,
             "changeable": 1
         },
         {
-            "key": "土豆",
-            "name": "💓土豆┃4K💓‍",
+            "key": "玩偶",
+            "name": "💓‍玩偶┃4K💓‍",
             "type": 3,
-            "api": "csp_Wextudou",
+            "api": "csp_Wogg",
             "searchable": 1,
             "changeable": 1
         },
@@ -119,14 +119,6 @@
             "changeable": 1
         },
         {
-            "key": "Wexlabi",
-            "name": "💓蜡笔┃4K💓",
-            "type": 3,
-            "api": "csp_Wexlabi",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Wexzhizhen",
             "name": "💓至臻┃4K💓",
             "type": 3,
@@ -135,10 +127,10 @@
             "changeable": 1
         },
         {
-            "key": "Wexxingyun",
-            "name": "💓幸运┃4K💓",
+            "key": "Wexlabi",
+            "name": "💓蜡笔┃4K💓",
             "type": 3,
-            "api": "csp_Wexxingyun",
+            "api": "csp_Wexlabi",
             "searchable": 1,
             "changeable": 1
         },
@@ -171,6 +163,22 @@
             "name": "😁腐剧┃影视😁",
             "type": 3,
             "api": "csp_WexFujutv",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wexduboku",
+            "name": "🎇独播┃秒播🎇",
+            "type": 3,
+            "api": "csp_Wexduboku",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Wex4Kav",
+            "name": "🎇急速┃秒播🎇",
+            "type": 3,
+            "api": "csp_Wex4Kav",
             "searchable": 1,
             "changeable": 1
         },
@@ -215,14 +223,6 @@
             "changeable": 1
         },
         {
-            "key": "哔嘀影视",
-            "name": "🎇喇叭┃秒播🎇",
-            "type": 3,
-            "api": "csp_WexBDys",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "Diduanys",
             "name": "🎇深渊┃秒播🎇",
             "type": 3,
@@ -253,6 +253,105 @@
             "api": "csp_Wexdyxs",
             "searchable": 1,
             "changeable": 1
+        },
+        {
+            "key": "非凡",
+            "name": "🛝非凡┃采集🛝",
+            "type": 1,
+            "api": "http://api.ffzyapi.com/api.php/provide/vod",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "categories": [
+                "剧情片",
+                "动作片",
+                "喜剧片",
+                "科幻片",
+                "恐怖片",
+                "爱情片",
+                "剧情片",
+                "战争片",
+                "记录片",
+                "国产剧",
+                "香港剧",
+                "韩国剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "欧美剧",
+                "短剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "欧美动漫",
+                "日韩动漫",
+                "海外动漫",
+                "国产动漫",
+                "港台动漫"
+            ]
+        },
+        {
+            "key": "木耳",
+            "name": "🛝木耳┃采集🛝",
+            "type": 1,
+            "api": "https://json02.heimuer.xyz/api.php/provide/vod",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "categories": [
+                "剧情片",
+                "动作片",
+                "冒险片",
+                "喜剧片",
+                "奇幻片",
+                "恐怖片",
+                "悬疑片",
+                "惊悚片",
+                "灾难片",
+                "爱情片",
+                "犯罪片",
+                "科幻片",
+                "歌舞片",
+                "战争片",
+                "经典片",
+                "动画电影",
+                "网络电影",
+                "其他片",
+                "国产剧",
+                "港剧",
+                "韩剧",
+                "日剧",
+                "泰剧",
+                "台剧",
+                "欧美剧",
+                "新马剧",
+                "其他剧",
+                "国产综艺",
+                "港台综艺",
+                "韩国综艺",
+                "日本综艺",
+                "欧美综艺",
+                "新马泰综艺",
+                "其他综艺",
+                "古装短剧",
+                "虐恋短剧",
+                "逆袭短剧",
+                "神豪短剧",
+                "重生短剧",
+                "复仇短剧",
+                "穿越短剧",
+                "甜宠短剧",
+                "强者短剧",
+                "欧美动漫",
+                "日本动漫",
+                "韩国动漫",
+                "国产动漫",
+                "港台动漫"
+            ],
+            "header": {
+                "user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/125.0.0.0Safari/537.36"
+            }
         },
         {
             "key": "360",
@@ -355,22 +454,6 @@
             "name": "🌺扣扣┃4K🌺",
             "type": 3,
             "api": "csp_Wexkoukou",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexkoukou2",
-            "name": "🌺扣扣┃4K2🌺",
-            "type": 3,
-            "api": "csp_Wexkoukou2",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Wexjiazitv",
-            "name": "🌺甲子┃4K🌺",
-            "type": 3,
-            "api": "csp_Wexjiazitv",
             "searchable": 1,
             "changeable": 1
         },
@@ -716,7 +799,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "\"./json/qie.json\""
+            "ext": "./json/qie.json"
         },
         {
             "key": "Wexmiso",

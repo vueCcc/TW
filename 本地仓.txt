@@ -1,7 +1,5 @@
 { "urls": [{ "url": "clan://localhost/tvboxTW/本地【天微VIP线】/api.json", "name": "本地【天微VIP线】" },
 
-{ "url":"clan://localhost/tvboxTW/本地【飞龙影视】/api.json", "name": "本地【飞龙影视】" },
-
 { "url":"clan://localhost/tvboxTW/本地【七星影视】/api.json", "name": "本地【七星影视】" },
 
 { "url":"clan://localhost/tvboxTW/本地【饭太硬线】/api.json", "name": "本地【饭太硬线】" },
