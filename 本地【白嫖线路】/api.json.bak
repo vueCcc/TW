@@ -1,4 +1,3 @@
-
 {
     "logo": "https://6474.kstore.space/tvbox/img/logo.png",
     "spider": "./spider.jar",
@@ -6,7 +5,7 @@
     "sites": [
         {
             "key": "douban",
-            "name": "白嫖本地｜公众号【天微科技】收集",
+            "name": "📁【白嫖本地】｜",
             "type": 3,
             "api": "csp_DouBan",
             "quickSearch": 0,

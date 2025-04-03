@@ -4,66 +4,15 @@
 ★支持单线的版本，只能使用后缀为“api.json”
 
 
-①：TVBox壳需开启存储权限；
+①：TVBox软件壳需开启存储权限；
 
-②：手机端用解压后的tvboxTW文件夹，必须在手机根位置；
+②：手机端解压后的tvboxTW文件夹，必须在手机根位置；
 
-③：电视端用手机扫码推送本地包无需解压
+③：电视端用手机扫码推送，无需解压直接上传本地包压缩包
 
-多仓配置地址：clan://localhost/tvboxTW/本地仓.txt
+七星影仓、影视仓配置地址：clan://localhost/tvboxTW/本地仓.txt
 
-单线配置地址：
-clan://localhost/tvboxTW/本地【天微VIP线】/api.json
+影视、OK影视配置多仓地址：file://tvboxTW/本地仓.txt
 
-clan://localhost/tvboxTW/本地【飞龙影视】/api.json
 
-clan://localhost/tvboxTW/本地【七星影视】/api.json
 
-clan://localhost/tvboxTW/本地【OK线路】/api.json
-
-clan://localhost/tvboxTW/本地【王二小线】/api.json
-
-clan://localhost/tvboxTW/本地【短剧频道】/api.json
-
-clan://localhost/tvboxTW/本地【戏曲音乐】/api.json
-
-clan://localhost/tvboxTW/本地【春莹天下】/api.json
-
-clan://localhost/tvboxTW/本地【喵影视线】/api.json
-
-clan://localhost/tvboxTW/本地【摸鱼线路】/api.json
-
-clan://localhost/tvboxTW/本地【云星日记】/api.json
-
-clan://localhost/tvboxTW/本地【无意云线】/api.json
-
-clan://localhost/tvboxTW/本地【讴歌线路】/api.json
-
-clan://localhost/tvboxTW/本地【骚零影视】/api.json
-
-clan://localhost/tvboxTW/本地【少儿频道】/api.json
-
-clan://localhost/tvboxTW/本地【天天开心】/api.json
-
-clan://localhost/tvboxTW/本地【香雅情线】/api.json
-
-clan://localhost/tvboxTW/本地【PG线路】/api.json
-
-clan://localhost/tvboxTW/本地【饭太硬线】/api.json
-
-clan://localhost/tvboxTW/本地【肥猫线路】/api.json
-
-clan://localhost/tvboxTW/本地【荷城茶秀】/api.json
-
-clan://localhost/tvboxTW/本地【肥猫线路】/api.json
-
-clan://localhost/tvboxTW/本地【南风线路】/api.json
-
-clan://localhost/tvboxTW/本地【小胡线路】/api.json
-
-clan://localhost/tvboxTW/本地【小米线路】/api.json
-
-clan://localhost/tvboxTW/本地【白嫖线路】/api.json
-
-clan://localhost/tvboxTW/本地【道长本地】/api.json
-clan://localhost/tvboxTW/本地【动漫频道】/api.json
